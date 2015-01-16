@@ -14,8 +14,9 @@ e.g
 angular.module('APPLICATIONNAME', ['citrullin.ryoutubeplayer']);
 
 3. use the youtube element
+```html
+<youtube-video video-id="YOUTUBEVIDEOCODE"></youtube-video>
 
-<youtube-video code="YOUTUBEVIDEOCODE"></youtube-video>
 
-you can find the code at the youtube URL. The code of the url: https://www.youtube.com/watch?v=GNMgEcRIPnc is GNMgEcRIPnc
+you can find the video-id at the youtube URL. The video-id of the url: https://www.youtube.com/watch?v=GNMgEcRIPnc is GNMgEcRIPnc
 

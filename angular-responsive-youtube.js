@@ -6,7 +6,7 @@ youtube_player.directive('youtubeVideo', function(){
             video_id: '@video-id'
         },
         link: function($scope, element, attrs){
-            $scope.height = Math.round((element[0].offsetWidth)/1.77777777778);
+            $scope.height = Math.round((element[0].offsetWidth)/(16/9));
         },
         controller: function($scope, $sce){
             $scope.url = $sce.trustAsResourceUrl("http://www.youtube.com/embed/"+$scope.video_id);
